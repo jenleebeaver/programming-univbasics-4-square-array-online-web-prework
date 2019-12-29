@@ -1,4 +1,4 @@
-def square_array(array, str)
+def square_array(array)
   counter = 0
 
   while counter < array.length do
@@ -6,8 +6,8 @@ def square_array(array, str)
     counter += 1
   end
 
-  return array.concat(str)
+  return array
 
 end
 
-p square_array([8, 9, 10, 11, 12, 13, 14, 15], "hello")
+p square_array([8, 9, 10, 11, 12, 13, 14, 15])
