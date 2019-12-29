@@ -6,7 +6,7 @@ def square_array(array, str)
     counter += 1
   end
 
-  return array + str
+  return array.concat(str)
 
 end
 
